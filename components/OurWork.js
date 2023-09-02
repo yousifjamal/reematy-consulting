@@ -36,7 +36,7 @@ const OurWork = () => {
 
                 <div className='w-[60vw] h-[90vh] sm:h-[70vh] sm:w-[30vw] font-serif bg-gradient-to-tl from-slate-900 to-gray-500 sm:mt-5 sm:ml-20 text-white/75 justify-center items-center shadow-2xl rounded-2xl text-center p-10'>
                   <h2 className=' sm:text-5xl mb-10 underline'> Features</h2>
-                  <div className='sm:text-3xl text-start'>
+                  <div className=' sm:text-l text-start'>
                     <p className='mb-10'>- Mobile responsive & ECommerce capable </p>
                     <p className='mb-10'>- Client dashboard making the homepage banner, products and promotions completely customizable</p>
                     <p className='mb-10'>- Lead generating search engine optimization</p>

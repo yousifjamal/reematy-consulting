@@ -5,7 +5,7 @@ import {AiOutlineLineChart} from "react-icons/ai";
 const Promise = () => {
     
   return (
-    <div className='bg-gradient-to-tr from-black to-slate-600 h-[90vh] items-center flex justify-center'>
+    <div className='bg-gradient-to-tr from-black to-slate-600 h-[115vh] items-center flex justify-center'>
         <div className='flex-row'>
           <h1 className='text-5xl sm:text-7xl text-center text-white/75 mt-5 mb-5 font-serif'>OUR PROMISE</h1>
 
@@ -21,7 +21,7 @@ const Promise = () => {
               <h2 className='text-xl sm:text-4xl underline mt-[6vh] '>Creating Commerce</h2>
               <BsCashCoin size={75} className="sm:hidden inline mt-4 text-green-600"/>
               <BsCashCoin size={300} className="hidden lg:inline mt-10 mb-10 text-green-600"/>
-              <h5 className='sm:text-xl text-sm text-slate-400 p-5'>Expand your marketshare by selling online to customers anywhere! Our payment model ensures you can sell & ship to various countries.</h5>
+              <h5 className='sm:text-xl text-sm text-slate-400 '>Expand your marketshare by selling online to customers anywhere! Our payment model ensures you can sell & ship to various countries.</h5>
             </div>
           </div>
         </div>
