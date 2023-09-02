@@ -9,7 +9,7 @@ const OurWork = () => {
     <div className='bg-gradient-to-br from-black to-slate-600 h-[163vh] sm:h-[120vh] items-center flex justify-center' id='OurWork'>
         <div className='flex-row'>
           <h1 className='text-5xl sm:text-7xl text-center text-white/75 mt-5 mb-10 font-serif'>OUR WORK</h1>
-            <div className='h-[140vh] sm:h-[90vh] w-[80vw] bg-gradient-to-br from-slate-900 to-gray-500 flex-row text-white/75 justify-center items-center shadow-2xl rounded-2xl text-center p-10'>
+            <div className='h-[145vh] sm:h-[90vh] w-[80vw] bg-gradient-to-br from-slate-900 to-gray-500 flex-row text-white/75 justify-center items-center shadow-2xl rounded-2xl text-center p-10'>
 
               
               <h3 className='font-serif text-white/75 text-center flex text-5xl mb-5 ml-7'>Jess' Pet Products</h3>
