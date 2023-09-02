@@ -17,19 +17,19 @@ const OurWork = () => {
               
                 <Carousel autoPlay={true} interval={6000} showThumbs={false} infiniteLoop={true} className='h-[30vh] w-[60vw] sm:h-[30vh] sm:w-[40vw] '>
                   <div>
-                    <Image src="/../public/JessPets1.jpg" className="sm:p-7" width={400} height={400} />
+                    <Image src="/static/jesimg/JessPets1.jpg" className="sm:p-7" width={400} height={400} />
                     <p className='legend'>Jess' Pet Products Homepage</p>
                   </div>
                   <div>
-                    <Image src="/../public/JessPets2.jpg" className="sm:p-7" width={400} height={400} />
+                    <Image src="/static/jesimg/JessPets2.jpg" className="sm:p-7" width={400} height={400} />
                     <p className='legend'>Sliding Carousel & Interactive Product Page</p>
                   </div>
                   <div>
-                    <Image src="/../public/JessPets3.jpg" className="sm:p-7" width={400} height={400} />
+                    <Image src="/static/jesimg/JessPets3.jpg" className="sm:p-7" width={400} height={400} />
                     <p className='legend'>Fully Functional Cart-Checkout System</p>
                   </div>
                   <div>
-                    <Image src="/../public/JessPets4.jpg" className="sm:p-7"  width={400} height={400} />
+                    <Image src="/static/jesimg/JessPets4.jpg" className="sm:p-7"  width={400} height={400} />
                     <p className='legend'>Customized Payment Redirection (using Stripe)</p>
                   </div>
                 </Carousel>
