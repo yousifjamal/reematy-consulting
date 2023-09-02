@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
       {/*Landing Page*/}
       <div className='toronto bg-cover flex items-center justify-center min-h-screen bg-fixed bg-center shadow-2xl'>
-      <div className='absolute top-0 left-0 bottom-0 right-0 bg-black/70 z-[2]' />
+      <div className='absolute top-0 left-0 bottom-0 right-0 min-h-screen bg-black/70 z-[2]' />
         <div className='text-white/75  p-5 z-[2] font-mono font-bold'>
           <h1 className='text-4xl sm:text-6xl  mb-3'>Website Development</h1>
           <h4 className='text-l sm:text-xl mb-3'>Optimizing Outreach - Creating Commerce </h4>
