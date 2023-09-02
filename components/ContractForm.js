@@ -30,7 +30,7 @@ function ContractForm() {
                     <Input name="phone" formatter="+1 (###)-###-####" placeholder='+1 (###)-###-####' className='flex mb-10 w-[15vw] text-l rounded-md p-1'/>
                     <h1 className='text-white/75 text-xl mb-2'>Website Description</h1>
                     <Input name="description" placeholder="Give us a brief overview of your vision" className='flex mb-10 w-[25vw] h-[15vh] text-l rounded-md p-3' />
-                    <button type="submit" className='rounded-full bg-slate-500 w-[8vw] h-[4vh] font-bold text-2xl text-white/75'>Submit</button>
+                    <button type="submit" className='rounded-full bg-slate-500 w-[8vw] h-[4vh] font-bold text-l text-white/75'>Submit</button>
                   </Form>
                   </div>
             </div>
