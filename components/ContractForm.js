@@ -3,8 +3,8 @@ import { Form, Input, Select, Checkbox, Relevant, Debug } from 'informed';
 
 function ContractForm() {
 
-  const onSubmit = ({ values }) => {
-    fetch('/api/mail', {
+  const onSubmit = async ({ values }) => {
+    await fetch('/api/mail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
