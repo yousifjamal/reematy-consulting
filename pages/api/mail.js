@@ -7,7 +7,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
 export default async function handler(req, res) {
   const temp = JSON.stringify(req.body)
-
+  console.log(process.env.SENDGRID_API_KEY)
   // Optional logging to see the responses
   // in the command line where next.js app is running.
   console.log('body: ', temp)
