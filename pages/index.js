@@ -16,6 +16,7 @@ export default function Home() {
     <>
       <Head>
         <title>Reematy Consulting</title>
+        <meta name="google-site-verification" content="Dv2_pM9QIqU6lqXHmhQKGLZx5G7HdeUddFApgS_o11I" />
         <meta name="description" content="Optimizing Outreach - Creating Commerce.Elevate Your Online Presence with Expert Website Building Services
 Looking for a niche website-building company to create a unique online presence? Look no further! We specialize in crafting custom websites tailored to your specific industry, ensuring you stand out in the digital world. Boost your brand's visibility and credibility with our SEO-friendly designs." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
