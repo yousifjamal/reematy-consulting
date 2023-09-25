@@ -24,17 +24,16 @@ export default async function handler(req, res) {
     text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nNeed: ${description}`,
     html: `<div>Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nNeed: ${description}</div>`,
   }
-  
-
-  sgMail
-  .send(msg)
-  .then(() => {
-    console.log('Email sent')
-  })
-  .catch((error) => {
-    console.error(error)
-  })
+    sgMail
+    .send(msg)
+    .then(() => {
+      console.log('Email sent')
+    })
+    .catch((error) => {
+      console.error(error)
+    })
 
 
-  res.status(200).json({ name,email })
+    res.status(200).json({ name,email })
+    
 }
