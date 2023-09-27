@@ -12,13 +12,13 @@
     "@next/font": "13.1.1",
     "@sendgrid/mail": "^7.7.0",
     "@superfaceai/one-sdk": "^2.4.2",
+    "framer-motion": "^10.16.4",
     "informed": "^4.39.0",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
-    "react-responsive-carousel": "^3.2.23",
-    "taos": "^1.0.2"
+    "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

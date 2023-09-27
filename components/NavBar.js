@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {AiOutlineBars, AiOutlineClose} from 'react-icons/ai';
 import Link from 'next/link';
+import {motion} from "framer-motion"
 
 const NavBar = () => {
 
@@ -27,7 +28,16 @@ const NavBar = () => {
     
     <div style={{ background: `${colour}` }} className='fixed left-0 top-0 w-full z-10 p-6 ease-in duration-1000 rounded-b-xl shadow-2xl'>
         <div className='max-w-[2000px] m-auto flex justify-between items-center p-4 text-white/75'>
-            <Link href="/"><h1 className='font-serif text-l sm:text-3xl'>Reematy Consulting Inc.</h1></Link>
+            <motion.div
+            variants={{
+            hidden: {opacity:0,x:-75},
+            visible: {opacity:1,x:0}
+            }}
+            initial="hidden"
+            animate="visible"
+            transition={{duration:1,delay:0.25}}>
+                <Link href="/"><h1 className='font-serif text-l sm:text-3xl'>Reematy Consulting Inc.</h1></Link>
+            </motion.div>
             <ul className='hidden sm:flex '>
                 <Link href="/" ><li className='p-4 text-2xl hover:text-gray-500'>Home</li></Link>
                 <Link href="#OurWork" ><li className='p-4 ml-5 text-2xl hover:text-gray-500'>Our Work</li></Link>
