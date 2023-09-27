@@ -26,8 +26,8 @@ const NavBar = () => {
 
   return (
     
-    <div style={{ background: `${colour}` }} className='fixed left-0 top-0 w-full z-10 p-6 ease-in duration-1000 rounded-b-xl shadow-2xl'>
-        <div className='max-w-[2000px] m-auto flex justify-between items-center p-4 text-white/75'>
+    <div style={{ background: `${colour}` }} className='fixed left-0 top-0 w-full sm:h-[15vh] h-[10vh] z-10 p-6 ease-in duration-1000 rounded-b-xl shadow-2xl'>
+        <div className='max-w-[2000px]  flex justify-between items-center px-5 text-white/75'>
             <motion.div
             variants={{
             hidden: {opacity:0,x:-75},
@@ -39,9 +39,9 @@ const NavBar = () => {
                 <Link href="/"><h1 className='font-serif text-l sm:text-3xl'>Reematy Consulting Inc.</h1></Link>
             </motion.div>
             <ul className='hidden sm:flex '>
-                <Link href="/" ><li className='p-4 text-2xl hover:text-gray-500'>Home</li></Link>
-                <Link href="#OurWork" ><li className='p-4 ml-5 text-2xl hover:text-gray-500'>Our Work</li></Link>
-                <Link href="#ContractUs" ><li className='p-4 ml-5 text-2xl hover:text-gray-500'>Contract Us</li></Link>
+                <Link href="/" ><li className='p-4 text-xl hover:text-gray-500'>Home</li></Link>
+                <Link href="#OurWork" ><li className='p-4 ml-5 text-xl hover:text-gray-500'>Our Work</li></Link>
+                <Link href="#ContractUs" ><li className='p-4 ml-5 text-xl hover:text-gray-500'>Contract Us</li></Link>
             </ul>
 
             {/*Mobile Menu Button*/}

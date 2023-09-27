@@ -2,12 +2,15 @@ import React from 'react';
 import { Form, Input, Select, Checkbox, Relevant, Debug } from 'informed';
 import {motion, useInView, useAnimation} from "framer-motion"
 import { useEffect, useRef } from 'react'
+import Router, { useRouter } from 'next/router';
 
 function ContractForm() {
   const ref = useRef(null);
   const isInView = useInView(ref, {once: true});
   
   const mainControls = useAnimation();
+
+  const router = useRouter();
 
   useEffect( () => {
     if(isInView){
@@ -24,7 +27,7 @@ function ContractForm() {
       },
       body: JSON.stringify(values),
     });
-    alert("Thank you for contacting us, we will reach out to you shortly.");
+    router.push('/contractConfirm');
   };
 
   return (
