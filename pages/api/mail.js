@@ -18,9 +18,9 @@ export default async function handler(req, res) {
   const description = `${body.description}`
 
   const msg = {
-    to: "trollsapprentice@gmail.com", // Your email where you'll receive emails
-    from: "trolls.apprentice@gmail.com", // your website email address here
-    subject: "New Client",
+    to: "operations@reematy.ca", // Your email where you'll receive emails
+    from: "operations@reematy.ca", // your website email address here
+    subject: `New Client - ${name}`,
     text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nNeed: ${description}`,
     html: `<div>Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nNeed: ${description}</div>`,
   }
